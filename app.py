@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Приложение работает в облаке!"
+return "Приложение работает в облаке! Версия 2 успешно запущена!"
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
